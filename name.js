@@ -20,7 +20,12 @@ for (let i = 0; i < charCodes.length; i++) {
     return result
 }
 
+function caesarDecrypt(encryptedMsg, shift){
+
+}
+
 const secretMessage = "RETREATTOMORROW"
+const decryptMessage = caesarDecrypt(encryptedMessage, 5)
 const encryptedMessage = caesarEncrypt(secretMessage, 5)
 
-console.log(secretMessage, encryptedMessage)
+console.log(secretMessage, encryptedMessage, decryptedMessage)
